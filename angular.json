@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/dealbook",
+            "baseHref": "/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -92,8 +93,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "fe1e7bd9-562f-413a-9c64-62de95c03427"
   }
 }
